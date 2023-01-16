@@ -17,16 +17,13 @@
 main{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    align-items: center;
+    min-height: 100vh;
     background-color:var(--Light-gray) ;
     font-family:var(--Family)
 }
 
 .wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding-top: 4rem;
     margin-bottom: 2rem;  
 }
@@ -35,14 +32,12 @@ main{
     background-color: var(--White);
     border-radius: 1.25rem;
     max-width: 20rem;
-    height: 80vh;
     padding: 0rem 0.625rem;
 }
 
 .image img{
     border: 0.125rem solid white;
     border-radius: 1.25rem;
-    height: 50vh;
     width: 100%;
     padding: 0.625rem 0.3125rem 0rem 0.3125rem;
     margin-bottom: 0.625rem;
@@ -66,12 +61,11 @@ main{
     color: lightslategray;
 }
 
-.attribution{
+footer{
     font-size: 0.6875rem; 
     text-align: center;
 }
 
-.attribution a{
+footer a{
     color: hsl(228, 45%, 44%);
 }
-
